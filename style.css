@@ -165,7 +165,8 @@
 .card-container {
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   gap: 20px;
-  flex-wrap: wrap; /* รองรับกรณีหน้าจอเล็ก */
+  margin-top: 30px;
 }
   
