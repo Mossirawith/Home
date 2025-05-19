@@ -87,8 +87,7 @@
   align-items: center;
   justify-content: flex-start;
   width: 220px;
-  height: 300px;
-  margin: 15px;
+  height: 320px;
   padding: 20px;
   background-color: #e3f2fd;
   border: 2px dashed #42a5f5;
@@ -165,8 +164,8 @@
 }
 .card-container {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   gap: 20px;
+  flex-wrap: wrap; /* รองรับกรณีหน้าจอเล็ก */
 }
   
